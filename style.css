@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #131313;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 100px;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#login a{
+    /* background-color: white; */
+    color: #D04B38;
+    border-radius: 30px;
+    display: flex;
+    flex-basis: 50px;
+    font-size: 15px;
+    align-items: center;
+    height: 100px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.navBar{
+    display: flex;
+    flex-basis: 50px;
+    font-size: 15px;
+    align-items: center;
+    height: 100px;
+    /* border: 1px solid blue; */
+    margin: 10px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navBar a:hover{
+    color: #D04B38;
+}
+
+.navBar:nth-child(1){
+    flex-basis: 900px;
+    font-size: 50px;
+}
+
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+}
+
+.home-left{
+    height: 700px;
+    text-align: center;
+}
+
+.home-right{
+    height: 700px;
+}
+
+.home-right{
+    background-image: url(Image/photo.png);
+    background-position: right; 
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -15px; */
+    /* margin-right: -15px; */
+}
+
+.con{
+    position: relative;
+    top: 40%;
+}
+
+.con p{
+    font-size: 6rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px 25px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin-left: 35px;
+}
+
+.btn:hover{
+    background-color: bisque;
+    transition: 1s;
+}
+
+.btnTrans{
+    color: white;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 15px 25px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin-left: 35px;
+}
+
+.btnTrans:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+
+
+
+
