@@ -6,26 +6,26 @@
     <link rel="icon" href="Image/logo.png">
 </head>
 <body>
-    <header>
-        <div id="nav">
+    <header id="home">
+        <div id="nav" class="fixed-top">
             <div class="navBar" id="logo">
                 <a href="#HOME">VELO</a>
             </div>
             <div class="navBar">
-                <a href="#HOME">HOME</a>
+                <a href="#home">HOME</a>
             </div>
             <div class="navBar">
                 <a href="#about">ABOUT</a>
             </div>
             <div class="navBar">
-                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#service">SERVICE</a>
             </div>
             <div class="navBar">
                 <a href="#contact">CONTACT</a>
             </div>
 
             <div id="login">
-                <a href="#login">Log In</a>
+                <a href="LogIn.html">Log In</a>
             </div>
 
         </div>
@@ -34,8 +34,12 @@
             <div class="col-6 home-left">
                 <div class="con">
                     <p>John Doe</p>
-                    <button type="button" class="btn">Portfolio</button>
-                    <button type="button" class="btnTrans">Contact</button>
+                    <a href="#service">
+                        <button type="button" class="btn">Service</button>
+                    </a>
+                    <a href="">
+                        <button type="button" class="btnTrans">Contact</button>
+                    </a>
                 </div>
             </div>
             <div class="col-6 home-right">
@@ -44,7 +48,119 @@
         </div>
         
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        <div class="row" id="about">
+            <div class="col-6 images">
+                <img src="Image/mountain.png" alt="">
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6 about-left">
+                        <p id="p1">About</p> <br/>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at tortor dui.
+                        Integer purus justo, volutpat sit amet nisl vitae, tempus ullamcorper magna. Cras eleifend sem non pretium rutrum.
+                        Donec convallis hendrerit velit, id rhoncus eros consectetur non. Sed at mi non turpis auctor blandit. In semper,
+                        sapien eu pellentesque ultrices, quam mauris fermentum nulla, vel ornare justo erat nec orci.
+                        Cras eleifend, nisi eu egestas hendrerit.
+                    </p>
+                   <a href="#contact" class="CU">Contact us</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row1" id="service">
+            <div class="col1">
+                <p class="sections-title">Service</p><br/>
+                <p>Here it's my services that can i do, my<br>
+                        skills and my experience.</p><br>
+                <a href="#contact" class="CU">Contact us</a>
+            </div>
+            <div class="col2">
+                <div class="box">
+                    <p class="p1">
+                        Web Developer
+                    </p>
+                    <p class="p2">
+                        2 year experience
+                    </p>
+                    <p class="p3">
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing <br/> elit. 
+                        Praesent at tortor dui.
+                    </p>
+                    <p class="p4">
+                        HTML5, CSS3, JavaScript,PHP, Wordpress
+                    </p>
+                </div>
+
+                <div class="box">
+                    <p class="p1">
+                        UI/UX Design
+                    </p>
+                    <p class="p2">
+                        2 years experience
+                    </p>
+                    <p class="p3">
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing <br/> elit. 
+                        Praesent at tortor dui.
+                    </p>
+                    <p class="p4">
+                        Adobe XD, Adobe Photoshop, Adobe Illustrator
+                    </p>
+                </div>
+
+                <div class="box">
+                    <p class="p1">
+                        Digital Design
+                    </p>
+                    <p class="p2">
+                        1 year experience
+                    </p>
+                    <p class="p3">
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing <br/> elit. 
+                        Praesent at tortor dui.
+                    </p>
+                    <p class="p4">
+                        Adobe Illustrator, Adobe Photoshop
+                    </p>
+                </div>
+                <div class="box">
+                    <p class="p1">
+                        Photo & Video Editing
+                    </p>
+                    <p class="p2">
+                        1 year experience
+                    </p>
+                    <p class="p3">
+                        Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing <br/> elit. 
+                        Praesent at tortor dui.
+                    </p>
+                    <p class="p4">
+                        Adobe Photoshop, Adobe Lightroom, Adobe Premiere Pro
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+    <hr>
+    <footer>
+        <p id="parg">Find me on</p>
+
+        <div class="footers">
+            <a href="#instagram">Instagram</a>
+            <a href="#Facebook">Facebook</a>
+            <a href="#Youtube">Youtube</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Reddit">Reddit</a>
+        </div>
+
+    </footer>
 </body>
 </html>
