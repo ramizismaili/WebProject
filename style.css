@@ -131,6 +131,7 @@ body, html{
     cursor: pointer;
     border: 1px solid transparent;
     margin-left: 35px;
+    outline: none;
 }
 
 .btn:hover{
@@ -139,6 +140,7 @@ body, html{
 }
 
 .btnTrans{
+    outline: none;
     color: white;
     background-color: transparent;
     border-radius: 40px;
