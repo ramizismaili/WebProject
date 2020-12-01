@@ -1,0 +1,57 @@
+h1{
+    margin-top: 200px;
+    margin-bottom: -200px;
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid #D04B38;
+}
+
+#b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 250px auto;
+    min-width: 150px;
+    width: 80%;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.bx-1{
+    display: flex;
+    flex-basis: 400px;
+    font-size: 16pt;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    /* border: 1px solid blue; */
+    margin: 5px;
+}
+
+.bx-1 .text{
+    opacity: 0;
+    position: absolute;
+}
+
+.bx-1 .text p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.bx-1:hover .image{
+    opacity: 0.3;
+}
+
+.bx-1 .image{
+    height: 100%;
+    width: 100%;
+}
+
+.bx-1:hover .text{
+    opacity: 1;
+    text-align: center;
+}
+
