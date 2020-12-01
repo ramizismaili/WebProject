@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="../JS/login.js"></script>
     <link rel="stylesheet" href="loginStyle.css">
-    <link rel="icon" href="Image/login.jpg">
+    <link rel="icon" href="../Image/login.jpg">
     <title>Log In</title>
 </head>
 <body>
@@ -10,18 +11,18 @@
         <h1><em>VELO</em></h1>
         <div class="login-form">
             <h2><b>Log In</b></h2>
-            <form action="">
+            <form action="" method="post">
                 <div class="user-box">
-                    <input type="text" name="" id="" required>
+                    <input type="text" name="username" id="username" required>
                     <label>Username</label>
                 </div>
                 <div class="user-box">
-                    <input type="password" name="" id="" required>
+                    <input type="password" name="password" id="password" required>
                     <label>Password</label>
                 </div>
             </form>
-            <a href="../index.html">
-                <button type="submit">Log in</button>
+            <a>
+                <button type="submit" onclick="validate()">Log in</button>
             </a>
 
             <br><br>
