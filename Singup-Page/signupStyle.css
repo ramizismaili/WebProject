@@ -102,3 +102,10 @@ p a{
     padding-left: 6px;
     color: rgb(80, 0, 80);
 }
+
+/*NI*/
+/* PER SHIGJETA NE INPUT TE NUMRIT */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="../Image/contact.png">
+    <script src="../JS/contact.js"></script>
     <link rel="stylesheet" href="styleContact.css">
     <link rel="stylesheet" href="../style.css">
     <title>Document</title>
@@ -40,15 +42,15 @@
             </div>
             <div class="box-contact">
                 <form action="">
-                    <input type="text" placeholder="Name*" required>
-                    <input type="text" placeholder="Surname*" required>
-                    <input type="email" placeholder="Email*" required>
-                    <textarea name="" id="" cols="50" rows="10" placeholder="Message*"></textarea>
+                    <input type="text" placeholder="Name*" id="name" required>
+                    <input type="text" placeholder="Surname*" id="surname" required>
+                    <input type="email" placeholder="Email*" id="email" required>
+                    <textarea name="" id="textarea" cols="50" rows="10" placeholder="Message*" required></textarea>
                 </form>
             </div>
             <div class="box-contact">
-                <a href="">
-                    <button type="submit" value="Send">Send</button>
+                <a>
+                    <button type="submit" value="Send" onclick="send()">Send</button>
                 </a>
             </div>
         </div>

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="../JS/signup.js"></script>
     <link rel="stylesheet" href="signupStyle.css">
-    <link rel="icon" href="Image/signup.png">
+    <link rel="icon" href="../Image/signup.png">
     <title>Sign Up</title>
 </head>
 <body>
@@ -12,33 +13,33 @@
 
         <form action="">
             <div class="user-box">
-                <input type="text" name="" id="" required>
-                <label>Full-Name</label>
+                <input type="text" name="" id="fullName" required>
+                <label>Full-Name*</label>
             </div>
             <div class="user-box">
-                <input type="text" name="" id="" required>
-                <label>Username</label>
+                <input type="text" name="" id="username" required>
+                <label>Username*</label>
             </div>
             <div class="user-box">
-                <input type="password" name="" id="" required>
-                <label>Password</label>
+                <input type="password" name="" id="password" required>
+                <label>Password*</label>
             </div>
             <div class="user-box">
-                <input type="email" name="" id="" required>
-                <label>Email</label>
+                <input type="email" name="" id="email" required>
+                <label>Email*</label>
             </div>
             <div class="user-box">
-                <input type="text" name="" id="" required>
+                <input type="text" name="" id="country" required>
                 <label>Country</label>
             </div>
             <div class="user-box">
-                <input type="number" name="" id="" required>
+                <input type="number" name="" id="phone" required>
                 <label>Phone</label>
             </div>
         </form>
 
-        <a href="../index.html">
-            <button type="submit">Sign up</button>
+        <a>
+            <button type="submit" onclick="register()">Sign up</button>
         </a>
 
         <br><br>
