@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-family: Impact, Charcoal, sans-serif;
+
+}
+
+.login-form{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.login-form h2{
+    margin: 0 0 30px;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-form .user-box{
+    position: relative;
+    text-align: center;
+}
+
+.login-form .user-box input{
+    width: 80%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-form .user-box label{
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .9s;
+}
+
+.login-form .user-box input:focus ~ label,
+.login-form .user-box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+button{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    padding: 15px 35px;
+    transition: .5s;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+p{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+p a:hover{
+    color: violet;
+}
+
+p a{
+    padding-left: 6px;
+    color: rgb(80, 0, 80);
+}
