@@ -53,18 +53,19 @@ body, html{
     flex-basis: 900px;
     font-size: 50px;
 }
-                #login a{
-                    /* background-color: white; */
-                    color: #D04B38;
-                    border-radius: 30px;
-                    display: flex;
-                    flex-basis: 50px;
-                    font-size: 15px;
-                    align-items: center;
-                    height: 100px;
-                    margin: 10px;
-                    margin-left: 40px;
-                }
+
+#login a{
+    /* background-color: white; */
+    color: #D04B38;
+    border-radius: 30px;
+    display: flex;
+    flex-basis: 50px;
+    font-size: 15px;
+    align-items: center;
+    height: 100px;
+    margin: 10px;
+    margin-left: 40px;
+}
 
 .col-6{
     flex: 0 0 50%;
