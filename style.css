@@ -191,68 +191,123 @@ body, html{
 .CU{
     color: #D04B38;
     /* text-decoration: none; */
-    font-size: 1.5rem;
+    font-size: 19px;
+    margin-bottom: -150px;
 }
 
-.service-left{
-    /* float: right; */
-    padding-left: 15rem;
-    padding-right: 2rem;
-    padding-bottom: 20px;
-}
-
-.service-left p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.CU:hover{
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 .sections-title{
     font-size: 4rem;
     font-family: "Poppins SemiBold", sans-serif;
+    margin-top: -300px;
 }
 
-
-
-/* `````````````````````````````````````````````````` */
-
-.row1{
-    display: flex;
-    width: 90%;
-    /* border: 1px solid red; */
-    height: 600px;
-    margin: 0 auto;
-}
-
-.col1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border: 1px solid blue; */
-    width: 30%;
-    float: left;
-}
-
-.col2{
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    /* border: 1px solid green; */
-    width: 70%;
-    float: right;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 70px auto;
+    min-width: 150px;
 }
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 380px;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin: 10px;
+}
+
+.container-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-box p{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.container-box .desc1{
+    margin-top: -120px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.container-box .desc2{
+    margin-bottom: -320px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+.container-box:nth-child(4){
+    flex-direction: column;
+}
+
+.container-box:nth-child(1),
+.container-box:nth-child(2),
+.container-box:nth-child(3){
+    margin-bottom: 200px;
+}
+
+.container-box:nth-child(4){
+    margin-left: -50px;
+    height: 350px;
+}
+.container-box:nth-child(7){
+    margin-left: -50px;
+    height: 0;
+}
+
+.container-box:nth-child(5),
+.container-box:nth-child(6),
+.container-box:nth-child(8),
+.container-box:nth-child(9){
+    flex-basis: 500px;
+    height: 350px;
+    align-items: flex-start;
+}
+
+/* .container-box:nth-child(8),
+.container-box:nth-child(9){
+    margin-top: -200px;
+} */
+
+/* .container-box:nth-child(5),
+.container-box:nth-child(6){
+    margin-bottom: -200px;
+} */
+
+
 
 .box{
     flex: 1 0 35%;
     flex-wrap: wrap;
     /* border: 1px solid white; */
     width: 80%;
-    height: 40%;
+    height: 70%;
     margin-left: 30px;
     border-radius: 20px;
     background: linear-gradient(320deg, #1c1c1f, #72757a);
 }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.p1{
+.box .p1{
     font-size: 1.2rem;
     font-family: "Poppins SemiBold", sans-serif;
     text-align: start;
@@ -261,7 +316,8 @@ body, html{
     padding-bottom: 20px;
 }
 
-.p2{
+
+.box .p2{
     font-size: 0.8rem;
     font-family: "Poppins", sans-serif;
     color: #ccc;
@@ -272,14 +328,14 @@ body, html{
     padding-bottom: 20px;
 }
 
-.p3{
-    font-size: 1.2rem;
+.box .p3{
+    font-size: 1rem;
     margin-bottom: 2rem;
     text-align: start;
     padding-left: 20px;
 }
 
-.p4{
+.box .p4{
     font-size: 0.8rem;
     bottom: 0;
     margin-bottom: 2rem;
